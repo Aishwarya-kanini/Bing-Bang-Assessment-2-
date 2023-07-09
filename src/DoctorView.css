@@ -1,0 +1,86 @@
+.doctor-view {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .dashboard-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .patient-card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+ 
+  
+  .view-doctors-button button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .view-doctors-button button:hover {
+    background-color: #45a049;
+  }
+  
+  .doctor-card-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  .doctor-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+ 
+  .doctor-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+ 
+  .create-doctor-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #30bb23;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  
+  
+ 
+  
+  

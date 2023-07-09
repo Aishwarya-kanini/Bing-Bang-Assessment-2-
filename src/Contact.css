@@ -1,0 +1,90 @@
+.contact-content {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Align the form in the center */
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .contact-container {
+    background-image: url('https://plus.unsplash.com/premium_photo-1682310539039-1a65c8fc0b4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZlZWRiYWNrfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-form {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Add your additional styling here */
+  
+  .contact-text {
+    font-size: 14px;
+  }
+  
+  .contact-form {
+    margin-top: 15px;
+  }
+  
+  .form-title {
+    margin-bottom: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 3px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+  }
+  
+  .btn-primary {
+    padding: 6px 12px;
+    font-size: 12px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* Toastify Styles */
+  .Toastify__toast-container {
+    z-index: 9999;
+  }
+  
+  .Toastify__toast--success {
+    background-color: green;
+  }
+  
+  .Toastify__toast-body {
+    font-size: 14px;
+  }
+  
